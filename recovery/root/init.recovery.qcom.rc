@@ -1,0 +1,5 @@
+import init.target.recovery.rc
+
+service qseecomd /sbin/qseecomd
+
+on early-init
